@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#mmp{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#flow{
+    position: relative;
+}
+.box{
+  padding: 5px;
+  width: 40px;
+  height: 20px;
+  border: 1px solid black;
+  background: #AAAAAA;
+  font-size: 9pt;
+  color: white;
+  font-weight: bolder;
+  float: left;
+  cursor: hand;
+}
+.addBtn{
+    position: absolute;
+    z-index: 1;
+}
+.line{
+    font-size: 0;
+}
+.line .line_1{
+    position:absolute;
+    width:27px;
+    height:2px;
+    clip:rect(0,27px,2px,0);
+    background-color:#000000;
+    overflow:hidden;
+}
+.line .arrow{
+    position:absolute;
+    width:10px;
+    height:15px;
+}
