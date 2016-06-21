@@ -50,7 +50,7 @@
           this.$nextTick(function () {
             // DOM 现在更新了
             // `this` 绑定到当前实例
-            let boxs = document.getElementsByClassName('box')
+            //let boxs = document.getElementsByClassName('box')
 
           })
         }

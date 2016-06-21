@@ -37,6 +37,7 @@
               // {"id":"10","text":"筛选9","next":["-1"],"begin":false},
           ],
           newmodel:[],
+          type:'draw',
           width:"100"
         }
       }
