@@ -14,15 +14,14 @@
     position: relative;
 }
 .box{
-  padding: 5px;
-  width: 40px;
-  height: 20px;
+  width: 98px;
+  height: 48px;
+  line-height: 50px;
+  text-align: center;
   border: 1px solid black;
-  background: #AAAAAA;
-  font-size: 9pt;
-  color: white;
-  font-weight: bolder;
-  float: left;
+  background: #000;
+  position: absolute;
+  color: #fff;
   cursor: hand;
 }
 .addBtn{
