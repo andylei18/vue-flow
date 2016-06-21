@@ -1,5 +1,5 @@
 <template>
-  <div class="box" v-for="item in box.model" :id="item.id" :style="{left: item.left,top: item.top}">
+  <div class="box" v-for="item in box.model" :id="item.id" :style="{left: item.left + 'px',top: item.top + 'px'}">
       <span>{{item.text}}</span>
   </div>
 </template>
@@ -51,7 +51,7 @@
             // DOM 现在更新了
             // `this` 绑定到当前实例
             let boxs = document.getElementsByClassName('box')
-            
+
           })
         }
       }
