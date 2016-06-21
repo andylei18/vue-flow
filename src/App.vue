@@ -2,10 +2,9 @@
 
 <template>
   <div id="mmp">
-    <box-module :box="box"></box-module>
-    <line-module :line="box"></line-module>
+    <!-- <box-module :box="box"></box-module>
+    <line-module :line="box"></line-module> -->
     <div id="draw" v-el:draw>
-
 
     </div>
   </div>
@@ -13,13 +12,13 @@
 
 <script>
 
-  import BoxModule from './components/box'
-  import LineModule from './components/line'
+  // import BoxModule from './components/box'
+  // import LineModule from './components/line'
 
   export default {
     components: {
-      BoxModule,
-      LineModule
+      // BoxModule,
+      // LineModule
     },
     data (){
       return {
