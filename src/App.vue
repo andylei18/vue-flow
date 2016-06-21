@@ -2,9 +2,11 @@
 
 <template>
   <div id="mmp">
-    <div id="flow" v-el:flow>
-      <box-module :box="box"></box-module>
-      <line-module :line="box"></line-module>
+    <box-module :box="box"></box-module>
+    <line-module :line="box"></line-module>
+    <div id="draw" v-el:draw>
+
+
     </div>
   </div>
 </template>
